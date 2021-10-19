@@ -54,7 +54,7 @@ namespace IdentityServer
 
             app.UseHttpsRedirection();
 
-            app.UseRouting();
+            app.UseRouting(); 
 
             app.UseAuthorization();
 
